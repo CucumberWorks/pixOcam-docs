@@ -8,30 +8,31 @@ permalink: /en/base-settings/
 
 ## Base Settings
 
-*   **Enable Shader Effect (`_EnableRendering`)**:
+<dl>
+  <dt><strong>Enable Shader Effect (`_EnableRendering`)</strong></dt>
+  <dd>Toggles the main shader effects (first pass) on or off. When off, the object will be invisible (or transparent), but the Camera Hack overlay (second pass) may still function if enabled.</dd>
 
-    Toggles the main shader effects (first pass) on or off. When off, the object will be invisible (or transparent), but the Camera Hack overlay (second pass) may still function if enabled.
-*   **Texture (`_MainTex`)**:
+  <dt><strong>Texture (`_MainTex`)</strong></dt>
+  <dd>The main input texture that the effects will be applied to.</dd>
 
-    The main input texture that the effects will be applied to.
-*   **Resolution Width / Height (`_FixedResolutionWidth`, `_FixedResolutionHeight`)**:
+  <dt><strong>Resolution Width / Height (`_FixedResolutionWidth`, `_FixedResolutionHeight`)</strong></dt>
+  <dd>Sets the target low resolution. The input texture is effectively downscaled to these dimensions, creating the pixelated look.</dd>
 
-    Sets the target low resolution. The input texture is effectively downscaled to these dimensions, creating the pixelated look.
-*   **Is Fullscreen Effect (`_IsFullscreenEffect`)**:
+  <dt><strong>Is Fullscreen Effect (`_IsFullscreenEffect`)</strong></dt>
+  <dd>(Informational) Indicates if the shader is intended for use as a fullscreen camera effect (like a post-processing effect).</dd>
 
-    (Informational) Indicates if the shader is intended for use as a fullscreen camera effect (like a post-processing effect).
-*   **Object Aspect Ratio (`_ObjectAspectRatio`)**:
+  <dt><strong>Object Aspect Ratio (`_ObjectAspectRatio`)</strong></dt>
+  <dd>Adjusts the aspect ratio for non-square objects (like quads) when *not* using the fullscreen effect, helping to prevent stretching.</dd>
 
-    Adjusts the aspect ratio for non-square objects (like quads) when *not* using the fullscreen effect, helping to prevent stretching.
-*   **Enable Color Depth Reduction (`_ColorDepthEnabled`)**:
+  <dt><strong>Enable Color Depth Reduction (`_ColorDepthEnabled`)</strong></dt>
+  <dd>Turns the color reduction effect on or off.</dd>
 
-    Turns the color reduction effect on or off.
-*   **Color Depth (`_ColorDepth`)**:
+  <dt><strong>Color Depth (`_ColorDepth`)</strong></dt>
+  <dd>Reduces the number of available colors, simulating retro hardware limitations. Lower values mean fewer colors (more posterized look).</dd>
 
-    Reduces the number of available colors, simulating retro hardware limitations. Lower values mean fewer colors (more posterized look).
-*   **Contrast (`_Contrast`)**:
+  <dt><strong>Contrast (`_Contrast`)</strong></dt>
+  <dd>Adjusts the difference between light and dark areas.</dd>
 
-    Adjusts the difference between light and dark areas.
-*   **Brightness (`_Brightness`)**:
-
-    Adjusts the overall lightness or darkness of the image. 
+  <dt><strong>Brightness (`_Brightness`)</strong></dt>
+  <dd>Adjusts the overall lightness or darkness of the image.</dd>
+</dl> 
