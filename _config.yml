@@ -2,3 +2,32 @@ title: pixOcam Documentation
 description: Documentation for the pixOcam Shader.
 remote_theme: just-the-docs/just-the-docs
 # Trivial change to trigger update 
+
+# Aux links for top navigation
+aux_links:
+  "English":
+    - "/en/"
+  "日本語":
+    - "/ja/"
+
+# Enable search
+search_enabled: true
+
+# Footer content
+footer_content: "Copyright &copy; 2024 CucumberWorks."
+
+# Define Jekyll collections if needed for more complex structuring later
+# collections:
+#   en_docs:
+#     output: true
+#     permalink: /en/:path/
+#   ja_docs:
+#     output: true
+#     permalink: /ja/:path/
+
+# Default language (optional, depends on how we structure redirects)
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       lang: "en"
