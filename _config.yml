@@ -7,9 +7,9 @@ remote_theme: just-the-docs/just-the-docs
 # Aux links for top navigation
 aux_links:
   "English":
-    - "/en/"
+    - "/pixOcam-docs/en/"
   "日本語":
-    - "/ja/"
+    - "/pixOcam-docs/ja/"
 
 # Enable search
 search_enabled: true
