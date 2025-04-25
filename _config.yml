@@ -7,15 +7,15 @@ remote_theme: just-the-docs/just-the-docs
 # Aux links for top navigation
 aux_links:
   "English":
-    - "/en/"
+    - "en/"
   "日本語":
-    - "/ja/"
+    - "ja/"
 
 # Enable search
 search_enabled: true
 
 # Footer content
-footer_content: "Copyright &copy; 2024 CucumberWorks."
+footer_content: "2025 CucumberWorks"
 
 # Define Jekyll collections if needed for more complex structuring later
 # collections:
