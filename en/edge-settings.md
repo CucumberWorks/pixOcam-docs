@@ -8,6 +8,9 @@ permalink: /en/edge-settings/
 
 ## Edge Settings
 
-*   **Enable Edge Detection (`_EdgeDetectEnabled`)**: Toggles the outline effect.
-*   **Edge Thickness (`_EdgeThickness`)**: Controls the thickness of the detected outlines.
-*   **Edge Color (`_EdgeColor`)**: Sets the color of the outlines. 
+*   **Enable Edge Detection (`_EdgeDetectEnabled`)**:
+    Toggles the outline effect.
+*   **Edge Thickness (`_EdgeThickness`)**:
+    Controls the thickness of the detected outlines.
+*   **Edge Color (`_EdgeColor`)**:
+    Sets the color of the outlines. 
