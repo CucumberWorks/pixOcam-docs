@@ -8,13 +8,19 @@ permalink: /en/ccd-smear-settings/
 
 ## CCD Smear Settings
 
-*   **Enable CCD Smear (`_SmearEnabled`)**:
-    Toggles the vertical light smearing effect (CCD sensor simulation).
-*   **Smear Threshold (`_SmearThreshold`)**:
-    Pixels brighter than this value will cause smearing.
-*   **Smear Intensity (`_SmearIntensity`)**:
-    Controls the brightness of the smear streaks.
-*   **Smear Length (`_SmearLength`)**:
-    Controls how long the vertical smear streaks are.
-*   **Smear Falloff (`_SmearFalloff`)**:
-    Controls how quickly the smear effect fades along its length. 
+<dl>
+  <dt><strong>Enable CCD Smear</strong></dt>
+  <dd><code>_SmearEnabled</code>: Toggles the vertical light smearing effect (CCD sensor simulation).</dd>
+
+  <dt><strong>Smear Threshold</strong></dt>
+  <dd><code>_SmearThreshold</code>: Pixels brighter than this value will cause smearing.</dd>
+
+  <dt><strong>Smear Intensity</strong></dt>
+  <dd><code>_SmearIntensity</code>: Controls the brightness of the smear streaks.</dd>
+
+  <dt><strong>Smear Length</strong></dt>
+  <dd><code>_SmearLength</code>: Controls how long the vertical smear streaks are.</dd>
+
+  <dt><strong>Smear Falloff</strong></dt>
+  <dd><code>_SmearFalloff</code>: Controls how quickly the smear effect fades along its length.</dd>
+</dl> 

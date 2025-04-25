@@ -10,9 +10,13 @@ permalink: /en/ui-overlay-settings/
 
 *These settings only apply when `Enable Camera Hack` and `Show Information Overlay` are both turned on.*
 
-*   **Font Texture (16x16) (`_FontTex`)**:
-    A 16x16 grid texture containing the characters used for the overlay text.
-*   **Show Information Overlay (`_ShowOverlay`)**:
-    Toggles the visibility of the overlay elements (text, visualizers, white border) within the Camera Hack's border area. If off, the content area stretches to fill the screen while maintaining aspect ratio.
-*   **Overlay Text Color (`_OverlayColor`)**:
-    Sets the color for the text displayed in the overlay. 
+<dl>
+  <dt><strong>Font Texture (16x16)</strong></dt>
+  <dd><code>_FontTex</code>: A 16x16 grid texture containing the characters used for the overlay text.</dd>
+
+  <dt><strong>Show Information Overlay</strong></dt>
+  <dd><code>_ShowOverlay</code>: Toggles the visibility of the overlay elements (text, visualizers, white border) within the Camera Hack's border area. If off, the content area stretches to fill the screen while maintaining aspect ratio.</dd>
+
+  <dt><strong>Overlay Text Color</strong></dt>
+  <dd><code>_OverlayColor</code>: Sets the color for the text displayed in the overlay.</dd>
+</dl> 

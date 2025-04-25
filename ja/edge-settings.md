@@ -8,9 +8,13 @@ permalink: /ja/edge-settings/
 
 ## エッジ検出
 
-*   **エッジ検出有効化 (`_EdgeDetectEnabled`)**:
-    アウトラインエフェクトを切り替えます。
-*   **エッジ太さ (`_EdgeThickness`)**:
-    検出されたアウトラインの太さを制御します。
-*   **エッジ色 (`_EdgeColor`)**:
-    アウトラインの色を設定します。 
+<dl>
+  <dt><strong>エッジ検出有効化</strong></dt>
+  <dd><code>_EdgeDetectEnabled</code>: アウトラインエフェクトを切り替えます。</dd>
+
+  <dt><strong>エッジ太さ</strong></dt>
+  <dd><code>_EdgeThickness</code>: 検出されたアウトラインの太さを制御します。</dd>
+
+  <dt><strong>エッジ色</strong></dt>
+  <dd><code>_EdgeColor</code>: アウトラインの色を設定します。</dd>
+</dl> 

@@ -10,13 +10,19 @@ permalink: /en/procedural-visualizer-settings/
 
 *These control the appearance of the primary procedural visualizer (orbiting circles) in the UI Overlay.*
 
-*   **Orbital Speed (`_OrbitalSpeed`)**:
-    Controls how fast the primary circle orbits within the visualizer box.
-*   **Orbital Width / Height (`_OrbitalWidth`, `_OrbitalHeight`)**:
-    Define the shape and size of the elliptical orbit path.
-*   **Secondary Circle Size (`_SecondaryCircleSize`)**:
-    Controls the size of the second, opposing circle relative to the primary one.
-*   **Secondary Circle Blend (`_SecondaryCircleBlend`)**:
-    Controls the opacity/brightness of the secondary circle.
-*   **Primary / Secondary Circle Color (`_PrimaryCircleColor`, `_SecondaryCircleColor`)**:
-    Sets the [HDR](https://docs.unity3d.com/Manual/HDRColorPicker.html) colors for the two orbiting circles in the visualizer. 
+<dl>
+  <dt><strong>Orbital Speed</strong></dt>
+  <dd><code>_OrbitalSpeed</code>: Controls how fast the primary circle orbits within the visualizer box.</dd>
+
+  <dt><strong>Orbital Width / Height</strong></dt>
+  <dd><code>_OrbitalWidth</code>, <code>_OrbitalHeight</code>: Define the shape and size of the elliptical orbit path.</dd>
+
+  <dt><strong>Secondary Circle Size</strong></dt>
+  <dd><code>_SecondaryCircleSize</code>: Controls the size of the second, opposing circle relative to the primary one.</dd>
+
+  <dt><strong>Secondary Circle Blend</strong></dt>
+  <dd><code>_SecondaryCircleBlend</code>: Controls the opacity/brightness of the secondary circle.</dd>
+
+  <dt><strong>Primary / Secondary Circle Color</strong></dt>
+  <dd><code>_PrimaryCircleColor</code>, <code>_SecondaryCircleColor</code>: Sets the [HDR](https://docs.unity3d.com/Manual/HDRColorPicker.html) colors for the two orbiting circles in the visualizer.</dd>
+</dl> 

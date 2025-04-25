@@ -8,13 +8,19 @@ permalink: /ja/ccd-smear-settings/
 
 ## CCDスミア
 
-*   **CCDスミア有効化 (`_SmearEnabled`)**:
-    垂直方向の光のにじみエフェクト（CCDセンサーシミュレーション）を切り替えます。
-*   **スミアしきい値 (`_SmearThreshold`)**:
-    この値より明るいピクセルがスミアリングを引き起こします。
-*   **スミア強度 (`_SmearIntensity`)**:
-    スミアストリークの明るさを制御します。
-*   **スミア長さ (`_SmearLength`)**:
-    垂直方向のスミアストリークの長さを制御します。
-*   **スミア減衰 (`_SmearFalloff`)**:
-    スミアエフェクトがその長さに沿ってどれだけ速くフェードするかを制御します。 
+<dl>
+  <dt><strong>CCDスミア有効化</strong></dt>
+  <dd><code>_SmearEnabled</code>: 垂直方向の光のにじみエフェクト（CCDセンサーシミュレーション）を切り替えます。</dd>
+
+  <dt><strong>スミアしきい値</strong></dt>
+  <dd><code>_SmearThreshold</code>: この値より明るいピクセルがスミアリングを引き起こします。</dd>
+
+  <dt><strong>スミア強度</strong></dt>
+  <dd><code>_SmearIntensity</code>: スミアストリークの明るさを制御します。</dd>
+
+  <dt><strong>スミア長さ</strong></dt>
+  <dd><code>_SmearLength</code>: 垂直方向のスミアストリークの長さを制御します。</dd>
+
+  <dt><strong>スミア減衰</strong></dt>
+  <dd><code>_SmearFalloff</code>: スミアエフェクトがその長さに沿ってどれだけ速くフェードするかを制御します。</dd>
+</dl> 
