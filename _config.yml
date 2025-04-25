@@ -1,3 +1,4 @@
 title: pixOcam Documentation
 description: Documentation for the pixOcam Shader.
-theme: jekyll-theme-minimal 
+remote_theme: just-the-docs/just-the-docs
+# Switched to just-the-docs theme 
