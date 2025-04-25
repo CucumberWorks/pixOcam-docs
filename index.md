@@ -1,17 +1,17 @@
 ---
-title: Home
-layout: home
-nav_exclude: true # Exclude from default navigation as it's just a landing page
+layout: none # Use no layout for a pure HTML redirect page
 permalink: /
 ---
-
-# pixOcam Documentation
-
-Welcome to the documentation for the pixOcam Shader.
-
-Please select your language:
-
-*   [English](/en/)
-*   [日本語](/ja/)
-
-</rewritten_file> 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <link rel="canonical" href="/pixOcam-docs/en/"/>
+  <meta http-equiv="refresh" content="0; url=/pixOcam-docs/en/">
+</head>
+<body>
+  <h1>Redirecting...</h1>
+  <p>If you are not redirected automatically, follow this <a href="/pixOcam-docs/en/">link to the English documentation</a>.</p>
+</body>
+</html> 
